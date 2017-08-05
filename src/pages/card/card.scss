@@ -1,0 +1,19 @@
+$blue: #28ABE3;
+$red: #DB3340;
+$green: #20DA9B;
+
+page-card {
+  .cardHeader {
+    background: $blue;
+    h2 {
+      color: white;
+    }
+  }
+  .skipOrTabooBtn {
+    background: $red;
+  }
+  .correctBtn {
+    background: $green;
+    float: right;
+  }
+}
