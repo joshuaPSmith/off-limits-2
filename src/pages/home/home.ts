@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  private openSettingsPage() {
+    this.navCtrl.parent.select(2);
+  }
+
 }
